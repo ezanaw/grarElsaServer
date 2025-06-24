@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ezana\\source\\repos\\ElsaServer (3)\\ElsaServer\\ElsaServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ezana\\source\\repos\\ElsaServer (3)\\ElsaServer\\ElsaServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ezana\\source\\repos\\ElsaServer (3)\\ElsaServer\\ElsaServer.csproj",
+        "projectName": "ElsaServer",
+        "projectPath": "C:\\Users\\ezana\\source\\repos\\ElsaServer (3)\\ElsaServer\\ElsaServer.csproj",
+        "packagesPath": "C:\\Users\\ezana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezana\\source\\repos\\ElsaServer (3)\\ElsaServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ezana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://f.feedz.io/elsa-workflows/elsa-3/nuget/index.json": {},
+          "https://f.feedz.io/personal/webhooks-core/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EFCoreSecondLevelCacheInterceptor": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "EasyCaching.Core": {
+              "target": "Package",
+              "version": "[1.9.2, )"
+            },
+            "EasyCaching.Redis": {
+              "target": "Package",
+              "version": "[1.9.2, )"
+            },
+            "Elsa": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Elsa.Activities.Email": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Elsa.CSharp": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Elsa.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Elsa.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Elsa.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Elsa.Identity": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Elsa.Scheduling": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Elsa.Workflows.Api": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2024.2.0, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.Common": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
