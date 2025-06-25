@@ -34,7 +34,11 @@ builder.Services.AddElsa(elsa =>
     // Identity & API
     elsa.UseIdentity(identity =>
     {
-        identity.TokenOptions = options => options.SigningKey = "turXh889xVusqCRBz3SIzRapD90e6hgAw/1QYvdpKUo=";
+        var signingKey = builder.Configuration["Jwt:SigningKey"];
+        if (string.IsNullOrWhiteSpace(signingKey))
+            throw new InvalidOperationException("JWT signing key is not configured.");
+
+        identity.TokenOptions = options => options.SigningKey = signingKey;
         identity.UseAdminUserProvider();
     });
     // Configure ASP.NET authentication/authorization.
